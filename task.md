@@ -1,0 +1,30 @@
+# Tasks
+
+- [ ] Project Initialization <!-- id: 0 -->
+    - [x] Explore workspace and determine project structure <!-- id: 1 -->
+    - [x] Create implementation plan <!-- id: 2 -->
+    - [x] Initialize Electron + React project <!-- id: 3 -->
+    - [x] Set up Python environment for Whisper <!-- id: 4 -->
+- [ ] Core Features Implementation <!-- id: 5 -->
+    - [x] Implement Drag & Drop file handling <!-- id: 6 -->
+    - [x] Basic Audio/Video processing pipeline (Python) <!-- id: 7 -->
+    - [x] Integrate OpenAI Whisper (Local & API) <!-- id: 8 -->
+    - [x] Implement Speaker Diarization (Pyannote or similar) <!-- id: 9 -->
+- [ ] UI/UX Polish & "Vibe" Check <!-- id: 10 -->
+    - [x] **Design System Update**: Refine color palette, typography, and spacing for a premium feel <!-- id: 23 -->
+    - [x] **Waveform Player**: Visualize audio with `wavesurfer.js` <!-- id: 24 -->
+    - [x] **Transcript Editor 2.0**: Rich text editor with speaker labels and timestamps <!-- id: 12 -->
+    - [x] **Dashboard Layout**: Improve queue list and status indicators <!-- id: 11 -->
+    - [x] **Settings UI**: Polish the settings panel <!-- id: 13 -->
+- [ ] Advanced Functionality <!-- id: 15 -->
+    - [x] **Export Engine**: Implement real SRT/VTT generation (backend & frontend) <!-- id: 16 -->
+    - [x] **Queue Management**: Cancel, retry, and remove items <!-- id: 17 -->
+    - [x] **Speaker Management**: UI to rename speakers <!-- id: 25 -->
+    - [x] fix diarization
+    - [x] sync transcription with the audio
+    - [x] add a fine grained audio jump and speed controls to help edit transcripts
+    - [x] allow control over where default files are saved in the settings 
+- [ ] Verification & Polish <!-- id: 19 -->
+    - [ ] Test with various file formats <!-- id: 20 -->
+    - [ ] Verify export formats <!-- id: 21 -->
+    - [ ] Final UI polish <!-- id: 22 -->
